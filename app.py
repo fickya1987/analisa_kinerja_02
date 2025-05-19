@@ -60,7 +60,7 @@ if uploaded_file:
     with col2:
         fig, ax = plt.subplots()
         sns.histplot(df["Skor_Assessment"].dropna(), kde=True, ax=ax, color="darkorange")
-        ax.set_title("Distribusi Skor Assessment (AKHLAK)")
+        ax.set_title("Distribusi Skor Assessment")
         st.pyplot(fig)
 
     with col3:
